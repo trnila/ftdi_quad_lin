@@ -668,7 +668,7 @@
 				)
 			)
 		)
-		(symbol "Interface_CAN_LIN:TJA1029TK"
+		(symbol "Interface_CAN_LIN:TJA1029T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -681,7 +681,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TJA1029TK"
+			(property "Value" "TJA1029T"
 				(at 1.27 8.89 0)
 				(effects
 					(font
@@ -690,7 +690,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -709,7 +709,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, DFN-8"
+			(property "Description" "LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -718,7 +718,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LIN 2.2A/SAE J2602 Transceiver HVSON-8"
+			(property "ki_keywords" "LIN 2.2A/SAE J2602 Transceiver"
 				(at 0 0 0)
 				(effects
 					(font
@@ -727,7 +727,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DFN*1EP*3x3mm*P0.65mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -736,7 +736,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TJA1029TK_0_1"
+			(symbol "TJA1029T_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -7.62)
@@ -749,7 +749,7 @@
 					)
 				)
 			)
-			(symbol "TJA1029TK_1_1"
+			(symbol "TJA1029T_1_1"
 				(pin open_collector line
 					(at -12.7 5.08 0)
 					(length 2.54)
@@ -887,24 +887,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1638,16 +1620,16 @@
 		)
 	)
 	(junction
-		(at 120.65 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1902e433-a5f0-4745-908e-e6a69b1cf9f5")
-	)
-	(junction
 		(at 166.37 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d59fbda-7c09-4a1d-a8a5-447e5e39cc71")
+	)
+	(junction
+		(at 176.53 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58077079-7255-4a86-afca-dee5905d8ba4")
 	)
 	(junction
 		(at 176.53 93.98)
@@ -1781,7 +1763,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 111.76) (xy 120.65 109.22)
+			(xy 120.65 109.22) (xy 120.65 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1821,16 +1803,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 109.22) (xy 123.19 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "747813f8-06be-4b78-8d3a-f3b08bed3a3d")
-	)
-	(wire
-		(pts
 			(xy 133.35 101.6) (xy 160.02 101.6)
 		)
 		(stroke
@@ -1851,7 +1823,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 90.17) (xy 176.53 93.98)
+			(xy 176.53 90.17) (xy 176.53 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1868,16 +1840,6 @@
 			(type default)
 		)
 		(uuid "9443f2be-190f-4aff-a4cd-a00d88128cc5")
-	)
-	(wire
-		(pts
-			(xy 120.65 114.3) (xy 120.65 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "961df573-ae92-45a0-a91c-04f11f6bf93b")
 	)
 	(wire
 		(pts
@@ -1898,6 +1860,16 @@
 			(type default)
 		)
 		(uuid "9ddd0be3-a918-4eae-852f-750fce785bdf")
+	)
+	(wire
+		(pts
+			(xy 180.34 91.44) (xy 176.53 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a690163d-6558-4503-a741-f26d496c70b6")
 	)
 	(wire
 		(pts
@@ -1941,6 +1913,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 91.44) (xy 176.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30c9a28-c659-479c-ae20-7bad5412dd5b")
+	)
+	(wire
+		(pts
 			(xy 176.53 93.98) (xy 185.42 93.98)
 		)
 		(stroke
@@ -1968,16 +1950,6 @@
 			(type default)
 		)
 		(uuid "e8cde0fe-f5a7-4b87-a26a-a4a23906b12a")
-	)
-	(wire
-		(pts
-			(xy 123.19 111.76) (xy 120.65 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e95dcb91-713c-4fd3-b1a3-009051c7cfa6")
 	)
 	(wire
 		(pts
@@ -2009,6 +1981,18 @@
 			(justify right bottom)
 		)
 		(uuid "de5a4414-5a2c-41f7-b563-04b38b364b86")
+	)
+	(hierarchical_label "VBAT"
+		(shape input)
+		(at 180.34 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f6c0864-24d9-4c8d-8485-157619535a00")
 	)
 	(hierarchical_label "RXD"
 		(shape input)
@@ -2381,7 +2365,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_CAN_LIN:TJA1029TK")
+		(lib_id "Interface_CAN_LIN:TJA1029T")
 		(at 120.65 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2424,7 +2408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, DFN-8"
+		(property "Description" "LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, SOIC-8"
 			(at 120.65 99.06 0)
 			(effects
 				(font
@@ -2435,9 +2419,6 @@
 		)
 		(pin "8"
 			(uuid "a7ea77be-9c65-4e58-a2ff-63909ef4737a")
-		)
-		(pin "9"
-			(uuid "44e84dd1-7bfe-430e-b9b0-386752ea7255")
 		)
 		(pin "1"
 			(uuid "8b74691a-e8dd-498c-ae0d-5ab30888527b")
