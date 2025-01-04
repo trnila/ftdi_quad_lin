@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ftdi_quad_lin")(type "KiCad")(uri "${KIPRJMOD}/ftdi_quad_lin.pretty")(options "")(descr ""))
+)
