@@ -1,0 +1,2430 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9778b583-e163-4b46-9dcd-ba2e370995a7")
+	(paper "A4")
+	(title_block
+		(title "FTDI Quad LIN")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:1N4148WS"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148WS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:MMBT2222A"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT2222A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBT2222A_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBT2222A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 156.21 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ee6a481-1577-4b4d-b393-ca6770467953")
+	)
+	(junction
+		(at 142.24 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31471657-dcc8-4816-8266-4817ae37e2b6")
+	)
+	(junction
+		(at 152.4 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5442f05a-e2a1-4a9a-b052-cc4d587c5791")
+	)
+	(junction
+		(at 156.21 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9887ff91-42ba-4a2f-b05d-770cc0ad2e79")
+	)
+	(junction
+		(at 142.24 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e6cd572-553e-4399-84ca-bbf62293cfeb")
+	)
+	(junction
+		(at 181.61 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6880e85-87c7-4f58-914c-74760d2d7914")
+	)
+	(junction
+		(at 152.4 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da509e8b-3cdb-4f13-854f-884259a2cc1a")
+	)
+	(wire
+		(pts
+			(xy 138.43 49.53) (xy 142.24 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e57ca2-97bd-404e-b1af-d3aff2d74aa9")
+	)
+	(wire
+		(pts
+			(xy 172.72 77.47) (xy 181.61 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c65c53e-7472-4a0a-893a-12971eec062e")
+	)
+	(wire
+		(pts
+			(xy 152.4 118.11) (xy 152.4 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1159abd7-0c5e-49e8-894f-ee6df0e7ce57")
+	)
+	(wire
+		(pts
+			(xy 128.27 73.66) (xy 127 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b4d2d8-de24-4cf8-b771-46dac1159a17")
+	)
+	(wire
+		(pts
+			(xy 156.21 49.53) (xy 181.61 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a761d9-963f-427a-9236-90254b7749a9")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 152.4 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36aee72f-cc81-409c-801d-59ad31ad118f")
+	)
+	(wire
+		(pts
+			(xy 153.67 73.66) (xy 156.21 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a46ce4-5070-49de-a1ef-240291f7ce82")
+	)
+	(wire
+		(pts
+			(xy 142.24 73.66) (xy 142.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7a9c0f-6ccf-4070-9f80-c6e40e553bb4")
+	)
+	(wire
+		(pts
+			(xy 152.4 77.47) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a74d810-0f79-4b1f-9f5f-a92c9f029ea6")
+	)
+	(wire
+		(pts
+			(xy 152.4 96.52) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b01321-2018-4aca-8bfe-bee4598c3372")
+	)
+	(wire
+		(pts
+			(xy 142.24 73.66) (xy 146.05 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aeb4aad-942d-4f56-9772-034dbfcc1bf9")
+	)
+	(wire
+		(pts
+			(xy 156.21 85.09) (xy 156.21 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615fd2fa-ef08-41d3-9d8f-747be6032c8a")
+	)
+	(wire
+		(pts
+			(xy 165.1 77.47) (xy 152.4 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6865d655-f126-4bcb-a2e6-76b5f310a0f9")
+	)
+	(wire
+		(pts
+			(xy 121.92 115.57) (xy 140.97 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a38bc31-5954-4c4d-982e-698e64baaef4")
+	)
+	(wire
+		(pts
+			(xy 142.24 54.61) (xy 142.24 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a5c2299-1054-4ff2-ac32-29460680878d")
+	)
+	(wire
+		(pts
+			(xy 142.24 49.53) (xy 156.21 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830bb216-7677-4c65-94ef-687d092ddbbf")
+	)
+	(wire
+		(pts
+			(xy 152.4 85.09) (xy 149.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cdd298b-37ae-465c-b7b6-eb2381542ecb")
+	)
+	(wire
+		(pts
+			(xy 156.21 62.23) (xy 156.21 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f28db66-b6e3-4215-8a47-3e081e63c3e3")
+	)
+	(wire
+		(pts
+			(xy 181.61 62.23) (xy 181.61 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978ce627-45f8-4ee0-b11e-de0b3d8d1909")
+	)
+	(wire
+		(pts
+			(xy 173.99 85.09) (xy 156.21 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd8e7e5-fdc2-47a0-9d0d-4e013a6905db")
+	)
+	(wire
+		(pts
+			(xy 123.19 66.04) (xy 119.38 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5862d55-edd1-4e67-af8f-98f29d9d51e6")
+	)
+	(wire
+		(pts
+			(xy 156.21 49.53) (xy 156.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7fd8e2b-0b2f-4aed-823f-276d25d1622f")
+	)
+	(wire
+		(pts
+			(xy 152.4 115.57) (xy 148.59 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcdf2bc8-bbdd-4d85-a6d8-9e2f8c2bbe3e")
+	)
+	(wire
+		(pts
+			(xy 135.89 73.66) (xy 142.24 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c59adb04-cf91-41ec-a6c8-b29222eac119")
+	)
+	(wire
+		(pts
+			(xy 142.24 62.23) (xy 142.24 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c3df6a-05ce-435b-8a02-1f89a5054fdc")
+	)
+	(wire
+		(pts
+			(xy 119.38 66.04) (xy 119.38 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6949cb8-ce40-4db3-bfba-c535aec3f77e")
+	)
+	(wire
+		(pts
+			(xy 181.61 77.47) (xy 181.61 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e274a9dd-7db5-4576-ad7e-2d5ec1011653")
+	)
+	(wire
+		(pts
+			(xy 181.61 49.53) (xy 181.61 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f882d31f-caaf-42b7-90f1-faf664918c24")
+	)
+	(text "LED is ON if VBAT present\nand blinks on indication"
+		(exclude_from_sim no)
+		(at 115.57 67.056 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e1c59ac-b4e7-48e4-a5af-898eadf070a2")
+	)
+	(hierarchical_label "INDICATION"
+		(shape input)
+		(at 121.92 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "252308ec-46a8-430d-8eea-7b8df99df00b")
+	)
+	(hierarchical_label "LED"
+		(shape input)
+		(at 123.19 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27badd1d-79a4-4fa3-904f-14bc404746cd")
+	)
+	(hierarchical_label "VBAT"
+		(shape input)
+		(at 138.43 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7fa26a1-db2b-4505-b0af-8e45a2863de9")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a300c26-5767-4d42-8919-e87d5abfc271")
+		(property "Reference" "#PWR0103"
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc389629-b328-428c-bcbd-465358b62b1b")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "#PWR099")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "#PWR098")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 179.07 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "328da17b-fdda-46b4-ae4f-03c33d7fb091")
+		(property "Reference" "Q9"
+			(at 184.15 86.3601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 184.15 83.8201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 184.15 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MMBT2222A"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc8f8317-2608-47fd-b31c-e322d13879e8")
+		)
+		(pin "3"
+			(uuid "0ec2326e-9bf4-4f88-90c7-a23bcb2eb170")
+		)
+		(pin "1"
+			(uuid "0748099d-1697-4d32-8678-d6064056fc39")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "Q9")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "330a293e-3e8f-44e0-aa8c-c9732459879b")
+		(property "Reference" "#PWR0111"
+			(at 152.4 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26ea55c8-968c-4680-863c-b03769732320")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35f6b4ab-873b-47c0-bcdd-72dfd0f21e21")
+		(property "Reference" "R36"
+			(at 181.61 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 183.896 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 183.388 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61a57794-2769-4b67-bc45-2f1fdeec7b7c")
+		)
+		(pin "1"
+			(uuid "80d6446f-c0c0-4b1c-8b1c-fa5502899168")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a43eb66-8280-4522-abe4-387d89e8b846")
+		(property "Reference" "R34"
+			(at 142.24 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.526 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 144.018 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "046b9ab1-9ca9-4c30-9f0d-3aed86b77dc7")
+		)
+		(pin "1"
+			(uuid "a75924c0-6825-4511-90f1-9f76d0402d21")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 144.78 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51e3842f-e44d-4732-a62e-3763251f90c3")
+		(property "Reference" "Q8"
+			(at 139.7 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 139.7 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 139.7 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MMBT2222A"
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fea18aac-daeb-49b0-bd2f-3e8ae84c87be")
+		)
+		(pin "3"
+			(uuid "f3a4679e-1f16-4cc7-8632-6d3f91fee5e2")
+		)
+		(pin "1"
+			(uuid "7eb8983c-a77f-45d1-ba39-1549ef195723")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cf204e9-3ba2-44ea-beea-d7db252f3bf2")
+		(property "Reference" "R37"
+			(at 132.08 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 132.08 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 132.08 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4551a4a-e451-496d-a35d-384972f7351a")
+		)
+		(pin "1"
+			(uuid "6319b83a-fba9-4811-8009-2f20ba217503")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 152.4 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cacfc3b-0b75-479f-8099-6406bc9ad121")
+		(property "Reference" "R39"
+			(at 152.4 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 154.686 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 150.622 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3022af9-b20d-4a74-9a3a-850f35e39381")
+		)
+		(pin "1"
+			(uuid "07bd686f-07d6-4d74-94ab-5e36f71b8344")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e7d1e65-6c87-4d38-98cc-ddf23c8291c9")
+		(property "Reference" "#PWR0105"
+			(at 181.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1796e782-282d-4b0c-a365-5de251fc4873")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "#PWR097")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a2fed9b-c148-4ebf-a3c6-e6f5d1a5c232")
+		(property "Reference" "R35"
+			(at 156.21 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 158.496 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 157.988 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "211bf654-1cc6-46bb-a398-f1a55daacda7")
+		)
+		(pin "1"
+			(uuid "e9cfe68b-349c-4038-b15b-88d4e57fa2bd")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 121.92 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "924453dd-1d3c-4e8d-817e-e8f32f70a096")
+		(property "Reference" "Q7"
+			(at 116.84 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 116.84 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 116.84 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MMBT2222A"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9814e029-9e20-4ebf-a04a-fd556e848a00")
+		)
+		(pin "3"
+			(uuid "97fb1c01-2092-4d8d-bd74-0b9b14fdf888")
+		)
+		(pin "1"
+			(uuid "8ea3e7d9-79d8-46c0-8eb0-1fd307885113")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93c265b5-b258-4f3a-a8e5-7b93f3696449")
+		(property "Reference" "#PWR0104"
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0f9bfa6-3a2e-4e04-a774-dbd8a34c9e47")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "#PWR096")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 152.4 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1dffdb9-466a-4345-b6d7-4d272715f1b1")
+		(property "Reference" "D10"
+			(at 154.94 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 154.94 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 147.955 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "1N4148W"
+			(at 152.4 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f82842dc-d62a-4227-adce-666fa31a8caa")
+		)
+		(pin "2"
+			(uuid "5e83b846-73d8-4aec-af6c-78092045a99a")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0572d09-aa6e-4bd6-8be6-52d9014bd67b")
+		(property "Reference" "R38"
+			(at 168.91 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 168.91 79.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 168.91 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1597f33d-fccd-4c6a-8218-8ba3ddd9952d")
+		)
+		(pin "1"
+			(uuid "d5c27376-55bb-4f03-9f11-20234665af4c")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "R32")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 149.86 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db45a85f-b50d-4a54-af8e-5c912239b3df")
+		(property "Reference" "C34"
+			(at 149.86 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220n"
+			(at 149.86 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 153.67 72.6948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8d0b344-d8fc-4334-9225-7502bfd9d833")
+		)
+		(pin "2"
+			(uuid "2fadbbfd-3567-494f-ae20-8283d37f2ab8")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "C34")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "C30")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffe4af16-3a15-4e34-aba9-1b0c5b929ace")
+		(property "Reference" "C35"
+			(at 144.78 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 144.78 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 148.59 114.6048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e09c8d5a-dfee-450a-94dd-3b040c1ee625")
+		)
+		(pin "2"
+			(uuid "5400a1d5-b1c4-4366-9b6f-8e3f9a7058a3")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/10bb60a6-cb88-4e34-9f6f-f0ff02e5c003"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/85252ba8-6ae2-43ae-a80b-66e776196ebc"
+					(reference "C33")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/e33470f0-5f89-4282-8b33-d669234ff030"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4/ec831243-4472-47d5-87b0-34a14aaf8a39"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
