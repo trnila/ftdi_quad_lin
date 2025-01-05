@@ -69,7 +69,7 @@
 	(attr smd)
 	(fp_line
 		(start -5.3 -2.45)
-		(end 5.3 -2.45)
+		(end -4.51 -2.45)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -89,7 +89,7 @@
 	)
 	(fp_line
 		(start 5.3 2.45)
-		(end -5.3 2.45)
+		(end -1.36 2.45)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -106,28 +106,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "4377361d-058a-4c9a-be64-955d8d71d30f")
-	)
-	(fp_circle
-		(center -2.54 2.039999)
-		(end -1.79 2.039999)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "6121c05f-e932-4cbc-887d-e1978f11fdeb")
-	)
-	(fp_circle
-		(center 2.54 -2.06)
-		(end 3.29 -2.06)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "c114ecd4-f08b-435a-ab4c-707cef9dbdad")
 	)
 	(fp_line
 		(start -5.3 -2.89)
@@ -169,11 +147,50 @@
 		(layer "F.CrtYd")
 		(uuid "64ca0b08-85d9-468d-b12d-9c3d461ea5d9")
 	)
-	(fp_text user "1"
-		(at -4.37 -2.98 0)
+	(fp_text user "0"
+		(at -4.4 -1.42 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "18ce8094-6dda-4d70-9ecd-e85d55f5ee2f")
+		(uuid "30376c74-568d-4355-add2-0424ace9b7e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "3"
+		(at 3.33 -1.42 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "65dd716d-733e-43ae-8544-98ac589ed805")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "1"
+		(at -1.81 -1.42 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "90ddd3bd-f5f9-455f-a440-7dee091f1996")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "2"
+		(at 0.68 -1.42 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f4757b3f-c0f3-4a70-90a4-7d5b690d2a61")
 		(effects
 			(font
 				(size 1 1)
@@ -193,6 +210,20 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.54 2.039999)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "9cf8f2ee-c3ba-412d-a2b7-587a367a9b3b")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.54 -2.06)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "477c1d10-073d-4b38-bc05-9dec68affe4d")
 	)
 	(pad "1" smd roundrect
 		(at -3.81 -0.76)
