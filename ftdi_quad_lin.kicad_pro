@@ -446,7 +446,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "lin_hw.kicad_pro",
+    "filename": "ftdi_quad_lin.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -609,6 +609,14 @@
     [
       "7747294f-2018-4c44-a2cb-fbe0ffa31304",
       "LIN 3"
+    ],
+    [
+      "45812031-9d38-4dba-8b38-7794c6a04449",
+      "eeprom"
+    ],
+    [
+      "9a990152-b1df-48a0-b083-4bc48afeeab4",
+      "leds_indication"
     ]
   ],
   "text_variables": {}

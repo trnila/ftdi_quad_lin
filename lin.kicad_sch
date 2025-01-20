@@ -1973,7 +1973,6 @@
 	)
 	(label "LIN"
 		(at 181.61 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1985,7 +1984,6 @@
 	(hierarchical_label "VBAT"
 		(shape input)
 		(at 180.34 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1997,7 +1995,6 @@
 	(hierarchical_label "RXD"
 		(shape input)
 		(at 88.9 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2009,7 +2006,6 @@
 	(hierarchical_label "TXD"
 		(shape input)
 		(at 88.9 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2631,7 +2627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77e4d433-05f1-42d0-83cd-1fae8b46c0f5")
-		(property "Reference" "JP5"
+		(property "Reference" "JP6"
 			(at 190.5 91.948 0)
 			(effects
 				(font
@@ -3381,7 +3377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f76d2b5d-84cb-4d85-86d2-fc64cb0e0262")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR083"
 			(at 200.66 95.25 0)
 			(effects
 				(font
