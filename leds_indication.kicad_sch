@@ -2459,7 +2459,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 219.71 114.554 90)
 			(effects
 				(font
