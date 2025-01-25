@@ -107,6 +107,46 @@
 		(layer "F.SilkS")
 		(uuid "f8abfb89-3cdd-4c3d-9c51-a112eb2c7fb3")
 	)
+	(fp_line
+		(start -5.7 -3.7)
+		(end 5.7 -3.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "416c9bd5-8b66-4dfa-b0db-201a4f8a00f3")
+	)
+	(fp_line
+		(start -5.7 3.7)
+		(end -5.7 -3.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "21ca1027-3e7e-43ab-8a3c-5859444c0d89")
+	)
+	(fp_line
+		(start -5.7 3.7)
+		(end 5.7 3.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bda5b526-8a8e-4e4e-ab42-c08d0dcf21e6")
+	)
+	(fp_line
+		(start 5.7 3.7)
+		(end 5.7 -3.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea663b51-04ec-4a82-a439-07edaa177f5f")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
