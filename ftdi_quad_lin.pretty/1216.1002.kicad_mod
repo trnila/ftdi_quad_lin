@@ -66,6 +66,17 @@
 			)
 		)
 	)
+	(property "manf#" "1216.1002"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "a1502328-9700-492a-ab62-34df1b4ea7e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr smd)
 	(fp_line
 		(start -5.5 -3.5)

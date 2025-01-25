@@ -7618,6 +7618,15 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "BLM18AG601SN1D"
+			(at 78.74 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e9f2588-97ce-4568-acf0-54e84f789550")
 		)
@@ -7923,6 +7932,15 @@
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 78.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "BLM18AG601SN1D"
+			(at 78.74 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10423,6 +10441,15 @@
 			)
 		)
 		(property "Description" "Hi Speed Quad Channel USB UART/FIFO, LQFP/QFN-64"
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "FT4232HL-REEL"
 			(at 151.13 109.22 0)
 			(effects
 				(font

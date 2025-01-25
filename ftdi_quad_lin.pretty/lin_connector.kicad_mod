@@ -51,7 +51,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "2.54mm screw terminal or JST XH"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -60,6 +60,17 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "manf#" "B3B-XH-A (LF)(SN)"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "89edb000-90dc-4aca-ba66-434a2166288b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)

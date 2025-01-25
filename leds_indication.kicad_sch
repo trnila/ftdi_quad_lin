@@ -3354,6 +3354,15 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "B5B-XH-A (LF)(SN)"
+			(at 222.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5989120-0d77-46db-bf71-55e9106a261c")
 		)

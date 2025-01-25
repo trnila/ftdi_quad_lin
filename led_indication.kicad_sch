@@ -1215,6 +1215,15 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "MMBT2222A"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc8f8317-2608-47fd-b31c-e322d13879e8")
 		)
@@ -1532,6 +1541,15 @@
 			)
 		)
 		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MMBT2222A"
 			(at 144.78 85.09 0)
 			(effects
 				(font
@@ -1936,6 +1954,15 @@
 			)
 		)
 		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MMBT2222A"
 			(at 121.92 73.66 0)
 			(effects
 				(font

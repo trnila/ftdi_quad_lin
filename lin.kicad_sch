@@ -2164,10 +2164,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e6b8654-62dd-4a18-afba-e4f4e3179e22")
 		(property "Reference" "D3"
-			(at 179.07 85.7249 90)
+			(at 178.308 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,6 +2388,15 @@
 			)
 		)
 		(property "Description" "LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, SOIC-8"
+			(at 120.65 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TJA1029T,118"
 			(at 120.65 99.06 0)
 			(effects
 				(font
@@ -3252,10 +3260,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e75d1209-a53b-4bf9-abf4-460fd54ef4c2")
 		(property "Reference" "D4"
-			(at 148.59 82.55 0)
+			(at 148.844 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
