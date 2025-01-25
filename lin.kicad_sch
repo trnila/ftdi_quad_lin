@@ -2870,7 +2870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "ftdi_quad_lin:lin_connector"
 			(at 186.69 101.6 0)
 			(effects
 				(font
