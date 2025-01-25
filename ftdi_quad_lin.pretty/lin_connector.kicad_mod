@@ -552,15 +552,15 @@
 		(remove_unused_layers no)
 		(uuid "2bbb9138-15d3-447f-bd0a-45f3bb205d67")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal.wrl"
+	(model "${KIPRJMOD}/ftdi_quad_lin.pretty/terminal.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 2.54 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )
