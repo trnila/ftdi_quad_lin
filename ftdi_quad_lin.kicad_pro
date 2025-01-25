@@ -617,6 +617,22 @@
     [
       "9a990152-b1df-48a0-b083-4bc48afeeab4",
       "leds_indication"
+    ],
+    [
+      "e33470f0-5f89-4282-8b33-d669234ff030",
+      "led_indication_0"
+    ],
+    [
+      "85252ba8-6ae2-43ae-a80b-66e776196ebc",
+      "led_indication_1"
+    ],
+    [
+      "10bb60a6-cb88-4e34-9f6f-f0ff02e5c003",
+      "led_indication_2"
+    ],
+    [
+      "ec831243-4472-47d5-87b0-34a14aaf8a39",
+      "led_indication_3"
     ]
   ],
   "text_variables": {}
