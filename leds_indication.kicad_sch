@@ -2108,6 +2108,139 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 257.81 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08927ed4-9504-4f83-857e-b4aca4247515")
+		(property "Reference" "#PWR0119"
+			(at 257.81 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aba684c3-8876-4a8e-aa1f-e32e165ea32a")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 234.95 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09f3f580-7069-47a8-a8a7-c4001d4de000")
+		(property "Reference" "#PWR0114"
+			(at 234.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 234.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 234.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da47de3c-c7c7-4fb0-84a7-15b0c996d30a")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 133.35 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2235,6 +2368,144 @@
 			(project "ftdi_quad_lin"
 				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 257.81 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "103fc60a-8ddb-4fd3-9bd2-f06bc5024c07")
+		(property "Reference" "C43"
+			(at 260.35 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 260.35 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 258.7752 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 257.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33715c3f-7083-407b-8635-ff3dcd0ae6c4")
+		)
+		(pin "1"
+			(uuid "8a087695-ccd9-4422-a751-67ed6319cd6a")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a53d415-a0ee-4d6c-86fe-e75cd9c0f872")
+		(property "Reference" "C41"
+			(at 237.49 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 237.49 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 235.9152 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 234.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09bf0d32-463a-4a42-bea1-b104427ee866")
+		)
+		(pin "1"
+			(uuid "9234e9c2-3fba-419f-9fcc-3d03fff16c22")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -2370,6 +2641,75 @@
 			(project "ftdi_quad_lin"
 				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 223.52 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1eafd9f8-b38a-4181-a3d1-146f529c1973")
+		(property "Reference" "C40"
+			(at 226.06 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 226.06 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 224.4852 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 223.52 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f387f1b3-84a1-4d97-be36-39573be8a503")
+		)
+		(pin "1"
+			(uuid "698d9f7d-9b4a-4b8a-8836-27d2b7f71787")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -2765,6 +3105,139 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 223.52 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "536e2e4d-7d6a-41af-818f-0602ca112c6e")
+		(property "Reference" "#PWR0112"
+			(at 223.52 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 223.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 223.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d6a8079-2316-4754-bddf-1f69542035f2")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6838ba41-55ff-45e9-bf8d-02c454a81a4e")
+		(property "Reference" "#PWR0113"
+			(at 223.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55a5c367-c920-4d2a-8418-208ddb6beff7")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 100.33 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2824,6 +3297,73 @@
 			(project "ftdi_quad_lin"
 				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "803c63c5-3f08-41df-a6b4-8f4103e90b01")
+		(property "Reference" "#PWR0117"
+			(at 246.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d7f54c4-25ea-4801-93aa-94f8aaa2e310")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -3099,6 +3639,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 234.95 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99341b52-f7b1-40c8-bbbc-abca2b809cfb")
+		(property "Reference" "#PWR0115"
+			(at 234.95 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f7a18d3-4e7c-4e3a-b74a-88c81c29f659")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 144.78 130.81 0)
 		(unit 1)
@@ -3296,6 +3903,72 @@
 			(project "ftdi_quad_lin"
 				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
 					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 246.38 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a81ba1d0-c7ba-4e20-95ee-cac469a49748")
+		(property "Reference" "#PWR0116"
+			(at 246.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 246.38 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3e7e2a2-4f10-4eee-94dc-03217804e375")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -3568,6 +4241,72 @@
 			(project "ftdi_quad_lin"
 				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 257.81 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cad7d912-570c-47ab-ab98-427ef908283d")
+		(property "Reference" "#PWR0118"
+			(at 257.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 257.81 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 257.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03b290f5-f6f5-44ce-be92-0b178db7993e")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -3852,6 +4591,75 @@
 			(project "ftdi_quad_lin"
 				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 246.38 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f94898ec-23fc-41d4-a98a-b2320a6455bc")
+		(property "Reference" "C42"
+			(at 248.92 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 248.92 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 247.3452 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 246.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9df89fd-b929-437f-b45f-9f48ba0e21d9")
+		)
+		(pin "1"
+			(uuid "9d88aa91-5e07-490b-b4b0-d2bb3d2551d4")
+		)
+		(instances
+			(project "ftdi_quad_lin"
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/9a990152-b1df-48a0-b083-4bc48afeeab4"
+					(reference "C42")
 					(unit 1)
 				)
 			)
