@@ -668,6 +668,150 @@
 				)
 			)
 		)
+		(symbol "Diode:PMEG4010ER"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PMEG4010ER"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4010ER.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V, 1A low Vf MEGA Schottky barrier rectifier, SOD-123W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "forward voltage diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Nexperia*CFP3*SOD?123W*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMEG4010ER_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMEG4010ER_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Diode:SD05_SOD323"
 			(pin_numbers hide)
 			(pin_names
@@ -2020,7 +2164,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 93.98) (xy 195.58 93.98)
+			(xy 222.25 93.98) (xy 217.17 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2030,7 +2174,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 91.44) (xy 200.66 93.98)
+			(xy 222.25 91.44) (xy 222.25 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +2224,17 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 93.98) (xy 185.42 93.98)
+			(xy 198.12 93.98) (xy 207.01 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c77a6d52-ecb5-4864-9bea-7711eb0a2e89")
+	)
+	(wire
+		(pts
+			(xy 176.53 93.98) (xy 190.5 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2794,6 +2948,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:PMEG4010ER")
+		(at 194.31 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dfcb731-fe03-4b26-b51a-8cc62f98d23f")
+		(property "Reference" "D21"
+			(at 193.9925 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMEG4050EP"
+			(at 193.9925 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 194.31 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4010ER.pdf"
+			(at 194.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V, 1A low Vf MEGA Schottky barrier rectifier, SOD-123W"
+			(at 194.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d45b316b-0120-4767-a5ca-ea0dd6a301dc")
+		)
+		(pin "1"
+			(uuid "96f23ee1-d884-4c79-b9c6-c2f146a5fb13")
+		)
+		(instances
+			(project ""
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/31c6b4ae-10a2-4f10-a591-5579630fa60e"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/7747294f-2018-4c44-a2cb-fbe0ffa31304"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/a2f7cee2-a97f-4885-9036-e6c309dcb8d0"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/e6cf11d6-0152-4d84-a82a-9e2d93966152/ce397451-b7a0-48ce-ab00-72bbf812467b"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 176.53 73.66 0)
 		(unit 1)
@@ -2953,7 +3187,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 190.5 93.98 180)
+		(at 212.09 93.98 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -2961,7 +3195,7 @@
 		(dnp no)
 		(uuid "77e4d433-05f1-42d0-83cd-1fae8b46c0f5")
 		(property "Reference" "JP6"
-			(at 190.5 91.948 0)
+			(at 212.09 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +3203,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 190.5 91.44 0)
+			(at 212.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,7 +3212,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 190.5 93.98 0)
+			(at 212.09 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,7 +3221,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 93.98 0)
+			(at 212.09 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,7 +3230,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 190.5 93.98 0)
+			(at 212.09 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3938,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 200.66 91.44 0)
+		(at 222.25 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3713,7 +3947,7 @@
 		(fields_autoplaced yes)
 		(uuid "f76d2b5d-84cb-4d85-86d2-fc64cb0e0262")
 		(property "Reference" "#PWR083"
-			(at 200.66 95.25 0)
+			(at 222.25 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3956,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 200.66 86.36 0)
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +3964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 91.44 0)
+			(at 222.25 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 91.44 0)
+			(at 222.25 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3982,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 200.66 91.44 0)
+			(at 222.25 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
