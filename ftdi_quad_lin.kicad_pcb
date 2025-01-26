@@ -7458,7 +7458,7 @@
 				)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "1M"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "dcef6a11-1bff-4764-93de-f1cc5e1dd580")
@@ -8681,7 +8681,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D20"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "c276d4f5-4977-46cc-9399-59d47cc0ad06")
 			(effects
@@ -8692,7 +8692,7 @@
 			)
 		)
 		(property "Value" "ESD1LIN24"
-			(at 0.1 1.9 360)
+			(at 0.1 1.9 0)
 			(layer "F.Fab")
 			(uuid "0d195213-073b-4be1-8ff3-a140286d3299")
 			(effects
@@ -8917,7 +8917,7 @@
 			(uuid "9dd19f8d-2b1d-40c5-9fb9-76342c2c1759")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.Fab")
 			(uuid "678add78-67ba-4bf7-aa6e-7fd1c0b8f17c")
 			(effects
@@ -12464,7 +12464,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D19"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "fcc68ad4-74ec-4c7d-b01e-a8c3871f5892")
 			(effects
@@ -12475,7 +12475,7 @@
 			)
 		)
 		(property "Value" "ESD1LIN24"
-			(at 0.1 1.9 360)
+			(at 0.1 1.9 0)
 			(layer "F.Fab")
 			(uuid "41d75c74-d2c6-4241-b153-fd0ca6bdd5a0")
 			(effects
@@ -12700,7 +12700,7 @@
 			(uuid "d0ca7dcc-87f6-4809-b1ad-84ddb99e154b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.Fab")
 			(uuid "640f07a4-23ac-4abc-9383-72317607c4f6")
 			(effects
@@ -14220,7 +14220,7 @@
 				)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "1M"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "39f17731-629e-4879-bc06-dc80612a4cff")
@@ -22714,7 +22714,7 @@
 				)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "1M"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "29535de6-fa2a-415a-a49c-102749be3dba")
@@ -25735,7 +25735,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D18"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "cb8690b0-f6b8-4c0a-9cb3-e14b2ba80dc0")
 			(effects
@@ -25746,7 +25746,7 @@
 			)
 		)
 		(property "Value" "ESD1LIN24"
-			(at 0.1 1.9 360)
+			(at 0.1 1.9 0)
 			(layer "F.Fab")
 			(uuid "5fec95bb-e93f-47a9-93f3-dbc09aa6e899")
 			(effects
@@ -25971,7 +25971,7 @@
 			(uuid "7621ddb7-0b4d-4efd-bb7d-aa2ead66716f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.Fab")
 			(uuid "24cc4b9e-b458-4167-a5d7-490c34f24c2f")
 			(effects
@@ -33698,7 +33698,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C39"
-			(at 1.4 1.6 360)
+			(at 1.4 1.6 0)
 			(layer "F.SilkS")
 			(uuid "a73948fe-e48f-4d46-9867-27695ae402c7")
 			(effects
@@ -33709,7 +33709,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "526e1b5a-2547-4d43-93bc-e32020418f5e")
 			(effects
@@ -33864,7 +33864,7 @@
 			(uuid "a4f572fe-d805-4964-a225-65fe22e65264")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f0211488-4706-4db6-bfca-dbb5ebf2b0e8")
 			(effects
@@ -38862,7 +38862,7 @@
 				)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "1M"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "b493775f-090e-4e29-8005-74ff3b6c56b9")
