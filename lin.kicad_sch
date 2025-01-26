@@ -3394,7 +3394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd1lin24.pdf"
 			(at 170.18 106.68 0)
 			(effects
 				(font
@@ -3403,7 +3403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+		(property "Description" "ESD1LIN24 24-V, 1-Channel ESD Protection Diode"
 			(at 170.18 106.68 0)
 			(effects
 				(font

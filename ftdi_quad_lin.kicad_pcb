@@ -8715,7 +8715,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd1lin24.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8728,7 +8728,7 @@
 				)
 			)
 		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+		(property "Description" "ESD1LIN24 24-V, 1-Channel ESD Protection Diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12498,7 +12498,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd1lin24.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12511,7 +12511,7 @@
 				)
 			)
 		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+		(property "Description" "ESD1LIN24 24-V, 1-Channel ESD Protection Diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25769,7 +25769,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd1lin24.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25782,7 +25782,7 @@
 				)
 			)
 		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+		(property "Description" "ESD1LIN24 24-V, 1-Channel ESD Protection Diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37039,7 +37039,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd1lin24.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37052,7 +37052,7 @@
 				)
 			)
 		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+		(property "Description" "ESD1LIN24 24-V, 1-Channel ESD Protection Diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
