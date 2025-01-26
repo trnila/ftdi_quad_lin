@@ -64,8 +64,9 @@
 		)
 	)
 	(property "manf#" "B3B-XH-A (LF)(SN)"
-		(at 0 0 0)
-		(layer "F.SilkS")
+		(at -0.24 1.32 0)
+		(layer "F.Fab")
+		(hide yes)
 		(uuid "89edb000-90dc-4aca-ba66-434a2166288b")
 		(effects
 			(font

@@ -68,7 +68,7 @@
 	)
 	(property "manf#" "1216.1002"
 		(at 0 0 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "a1502328-9700-492a-ab62-34df1b4ea7e1")
 		(effects
 			(font
