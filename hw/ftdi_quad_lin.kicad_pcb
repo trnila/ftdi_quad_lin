@@ -973,7 +973,7 @@
 		(descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
 		(tags "CFP3 SOD-123W")
 		(property "Reference" "D22"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "500212d0-3614-4fa8-8c4d-b9e1b7d85778")
@@ -985,7 +985,7 @@
 			)
 		)
 		(property "Value" "PMEG4050EP"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.Fab")
 			(uuid "1aad92bc-4567-4038-bc34-a2cf629298fa")
 			(effects
@@ -1210,7 +1210,7 @@
 			(uuid "6966f548-c647-406e-9e12-000653e2e354")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.Fab")
 			(uuid "dc7e1f07-38a7-4643-adc8-9f9bd718b811")
 			(effects
@@ -13038,7 +13038,7 @@
 		(descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
 		(tags "CFP3 SOD-123W")
 		(property "Reference" "D23"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c5fce64e-37f2-4131-8223-c082221541a7")
@@ -13050,7 +13050,7 @@
 			)
 		)
 		(property "Value" "PMEG4050EP"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.Fab")
 			(uuid "db7f3eeb-d857-46e1-969b-89514384673d")
 			(effects
@@ -13275,7 +13275,7 @@
 			(uuid "43b0a1ba-79c9-4ff1-8d01-67bf24a2e2a9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.Fab")
 			(uuid "245493de-8baa-4643-81af-fc376e985996")
 			(effects
@@ -18487,7 +18487,7 @@
 		(descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
 		(tags "CFP3 SOD-123W")
 		(property "Reference" "D21"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f445787b-3475-421d-82f2-06b1db6e513d")
@@ -18499,7 +18499,7 @@
 			)
 		)
 		(property "Value" "PMEG4050EP"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.Fab")
 			(uuid "5deabec4-3dbd-4681-8971-a00b8c3ebf21")
 			(effects
@@ -18724,7 +18724,7 @@
 			(uuid "54767775-ce82-4bbc-921d-ead537b88153")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.Fab")
 			(uuid "0a3c4139-95fe-4622-a9d0-cf7e4029e4ee")
 			(effects
