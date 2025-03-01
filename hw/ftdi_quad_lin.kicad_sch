@@ -10815,6 +10815,15 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "PJ-063AH"
+			(at 115.57 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ea013b93-66cd-4975-8626-42dc9e84ea15")
 		)
