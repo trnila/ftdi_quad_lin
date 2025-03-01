@@ -10352,6 +10352,19 @@
 				)
 			)
 		)
+		(property "manf#" "USB4105-GF-A-120"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b11a69c-cd9e-4bbe-825f-d56fe3f8ff58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/2a8b7d9e-d19a-49b3-a70d-3ff84a98e6c6")
 		(sheetname "Root")

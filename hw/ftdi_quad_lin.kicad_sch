@@ -7731,6 +7731,15 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "USB4105-GF-A-120"
+			(at 50.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B12"
 			(uuid "6f0f725a-8b33-431c-aefb-6e403c5b2cd7")
 		)
