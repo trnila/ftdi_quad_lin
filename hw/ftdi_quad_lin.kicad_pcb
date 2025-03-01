@@ -1034,6 +1034,19 @@
 				)
 			)
 		)
+		(property "manf#" "PMEG4050EP,115"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dabce57e-8116-4324-8ef3-dd265b9203e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Nexperia*CFP3*SOD?123W*")
 		(path "/31c6b4ae-10a2-4f10-a591-5579630fa60e/5dfcb731-fe03-4b26-b51a-8cc62f98d23f")
 		(sheetname "LIN 1")
@@ -13125,6 +13138,19 @@
 				)
 			)
 		)
+		(property "manf#" "PMEG4050EP,115"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ee4fb56-e271-4c3f-bcfe-dcff1c8ce3bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Nexperia*CFP3*SOD?123W*")
 		(path "/a2f7cee2-a97f-4885-9036-e6c309dcb8d0/5dfcb731-fe03-4b26-b51a-8cc62f98d23f")
 		(sheetname "LIN 2")
@@ -18570,6 +18596,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "PMEG4050EP,115"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddc8216f-eb2a-4cf3-8453-58557f26c6c1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -38774,6 +38813,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "PMEG4050EP,115"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f4dd58a-be5c-4b82-8ee5-fc82ea0b3f9c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)

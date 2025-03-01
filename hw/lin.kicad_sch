@@ -3000,6 +3000,15 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "PMEG4050EP,115"
+			(at 194.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d45b316b-0120-4767-a5ca-ea0dd6a301dc")
 		)
