@@ -3401,6 +3401,15 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "B3B-XH-A (LF)(SN)"
+			(at 186.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "3826d712-c098-4c32-af11-f73c276a69e6")
 		)
