@@ -2285,7 +2285,7 @@
 				)
 			)
 		)
-		(property "Value" "220n"
+		(property "Value" "100n"
 			(at 149.86 68.58 90)
 			(effects
 				(font
