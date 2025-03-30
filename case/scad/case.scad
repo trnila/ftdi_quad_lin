@@ -1,23 +1,14 @@
 include <NopSCADlib/lib.scad> 
-include <NopSCADlib/vitamins/geared_steppers.scad>
 include <NopSCADlib/core.scad>
-include <NopSCADlib/vitamins/cameras.scad>
 include <NopSCADlib/vitamins/inserts.scad>
 include <NopSCADlib/vitamins/insert.scad>
 include <NopSCADlib/vitamins/d_connectors.scad>
 include <NopSCADlib/vitamins/d_connector.scad>
 include <NopSCADlib/vitamins/pcb.scad>
 include <NopSCADlib/printed/printed_box.scad>
-
-include <NopSCADlib/vitamins/microswitches.scad>
 include <NopSCADlib/vitamins/d_connectors.scad>
 include <NopSCADlib/vitamins/leds.scad>
 include <NopSCADlib/printed/led_bezel.scad>
-include <NopSCADlib/vitamins/axials.scad>
-include <NopSCADlib/vitamins/radials.scad>
-include <NopSCADlib/vitamins/smds.scad>
-include <NopSCADlib/vitamins/7_segments.scad>
-include <NopSCADlib/vitamins/potentiometers.scad>
 
 use <NopSCADlib/vitamins/pcb.scad>
 use <NopSCADlib/printed/foot.scad>
@@ -77,10 +68,15 @@ ftdi_quad_lin_pcb = ["ftdi_quad_lin_pcb", "ftdi quad lin",
     [ [3.45, 3.45], [3.45, -3.45], [-3.45, 3.45], [-3.45, -3.45] ],
     // components
     [
-        [ 3.7, 12.49, 180, "usb_C"],
-        [  6, 66, 180, "barrel_jack"],
-        [  22.11,  3.5,  0, "2p54header", 11, 1 ,undef, "black", true ],
-      
+        [ 3.7,   12.49, 180, "usb_C"],
+        [  6,       66, 180, "barrel_jack"],
+        [  22.11,  3.5,   0, "2p54socket", 11, 1, 1],
+        
+        [   15.9, 76.3,   0, "jst_xh", 5],
+        [   51.2, 12.9,  90, "jst_xh", 3],
+        [   51.2, 31.1,  90, "jst_xh", 3],
+        [   51.2, 49.1,  90, "jst_xh", 3],
+        [   51.2, 66.5,  90, "jst_xh", 3],
     ],
     // accessories
     []
@@ -182,9 +178,26 @@ module LED3mm_bezel_retainer_stl() stl("LED3mm_bezel_retainer") {
     led_bezel_retainer(led_activity_bezel);
 }
 
-//! 1. Insert LED into the bezel
-//! 2. Prepare retainer, but dont screw yet
-module LED3mm_red_bezel_assembly() led_bezel_fastened_assembly(led_activity_bezel, 2);
+//! 1. Solder wire from J7 pin 5 to 3th LED anode (+)
+//! 1. Chain and solder wire to all other anodes (+)
+//! 1. solder 3th LED cathode (-) to J7 pin 4
+//! 1. solder 2th LED cathode (-) to J7 pin 3
+//! 1. solder 1th LED cathode (-) to J7 pin 2
+//! 1. solder 0th LED cathode (-) to J7 pin 1
+//! 1. Insert LEDs into the bezels
+module led_activity_assembly() assembly("led_activity") {
+    led = led_bezel_led(led_activity_bezel);
+    d = led_diameter(led);
+    translate_z(led_bezel_flange_t(led_activity_bezel)) {
+    vflip()
+        stl_colour(pp1_colour)
+            led_bezel(led_activity_bezel);
+
+    translate_z(-led_height(led) + (is_num(d) ? d / 2 : 0))
+        explode(-13)
+            led(led, "red");
+}
+}
 
 //! Place FTDI Quad LIN PCB into base part.
 module ftdi_quad_lin_box_base_assembly()
@@ -202,14 +215,23 @@ assembly("ftdi_quad_lin_box_base") {
 //! 1. Insert 4x LED with bezel into hole and screw with retainer
 //! 2. Insert 4x slide switches and glue them inside
 //! 3. insert 4x DCONN9 connectors and glue them inside
-module ftdi_quad_lin_box_assembly() {
+module ftdi_quad_lin_box_assembly() assembly("ftdi_quad_lin_box") {
     ftdi_quad_lin_box_stl();
     
     dsub() {
-        d_plug(DCONN9);
+        explode(-15) {
+            d_plug(DCONN9);
+        }
         dsub_led_activity() {
+            explode(10)
             translate([0, 0, 2])
-            led_bezel_fastened_assembly(led_activity_bezel, 2);
+                led_activity_assembly();
+
+            translate_z(-2)
+            vflip()
+            stl_colour(pp2_colour)
+                explode(40)
+                    led_bezel_retainer(led_activity_bezel);
         }
     }
 
