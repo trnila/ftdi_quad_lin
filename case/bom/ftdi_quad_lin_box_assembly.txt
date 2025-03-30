@@ -1,0 +1,13 @@
+ftdi_quad_lin_box_assembly:
+Vitamins:
+  8 D-type connector pillar
+  4 D-type 9 way  plug
+  8 Nut M2 x 1.6mm 
+  4 SlideSwitch
+
+Printed:
+  4 LED3mm_bezel_retainer.stl
+  1 ftdi_quad_lin_box.stl
+
+Assemblies:
+  4 led_activity_assemblies

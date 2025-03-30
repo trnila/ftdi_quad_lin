@@ -1,0 +1,47 @@
+Vitamins:
+    F      
+    t      
+    d      
+    i      
+           
+ F  q      
+ t  u      
+ d  a      
+ i  d      
+           
+ q  l  L   
+ u  i  e   
+ a  n  d   
+ d         
+    b  a   
+ l  o  c   
+ i  x  t   
+ n     i   
+    b  v  M
+ b  a  i  a
+ o  s  t  i
+ x  e  y  n
+ 8|  |  |  |  8 D-type connector pillar
+ 4|  |  |  |  4 D-type 9 way  plug
+  |  |  | 4|  4 Heatfit insert M3 x 3mm
+  | 4|  |  |  4 JST XH connector 3 way
+  | 1|  |  |  1 JST XH connector 5 way
+  |  | 4|  |  4 LED 3 mm red
+ 8|  |  |  |  8 Nut M2 x 1.6mm 
+  | 1|  |  |  1 ftdi quad lin
+  | 1|  |  |  1 Pin socket 11 x 1 right_angle
+  |  |  | 4|  4 Screw M3 pan x  6mm
+ 4|  |  |  |  4 SlideSwitch
+  |  |  | 4|  4 Washer  M3 x 7mm x 0.5mm
+
+Printed:
+  |  | 4|  |  4 LED3mm_bezel.stl
+ 4|  |  |  |  4 LED3mm_bezel_retainer.stl
+ 1|  |  |  |  1 ftdi_quad_lin_box.stl
+  | 1|  |  |  1 ftdi_quad_lin_box_base.stl
+
+Assemblies:
+  1 ftdi_quad_lin_box_assembly
+  1 ftdi_quad_lin_box_base_assembly
+  4 led_activity_assemblies
+  1 main_assembly

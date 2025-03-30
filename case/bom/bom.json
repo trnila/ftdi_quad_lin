@@ -1,0 +1,114 @@
+[
+    {
+        "name": "ftdi_quad_lin_box_base_assembly",
+        "big": null,
+        "ngb": false,
+        "zoomed": 0,
+        "count": 1,
+        "assemblies": {},
+        "vitamins": {
+            "pcb(ftdi_quad_lin_pcb): ftdi quad lin": {
+                "count": 1
+            },
+            "pin_socket(2p54header, 11, 1, right_angle = 1): Pin socket 11 x 1 right_angle": {
+                "count": 1
+            },
+            "jst_xh_header(jst_xh_header, 5): JST XH connector 5 way": {
+                "count": 1
+            },
+            "jst_xh_header(jst_xh_header, 3): JST XH connector 3 way": {
+                "count": 4
+            }
+        },
+        "printed": {
+            "ftdi_quad_lin_box_base.stl": {
+                "count": 1,
+                "colour": "[0, 0.572549, 0]",
+                "camera": "0,0,0,70,0,315,500"
+            }
+        },
+        "routed": {}
+    },
+    {
+        "name": "led_activity_assembly",
+        "big": null,
+        "ngb": false,
+        "zoomed": 0,
+        "count": 4,
+        "assemblies": {},
+        "vitamins": {
+            "led(LED3mm): LED 3 mm red": {
+                "count": 4
+            }
+        },
+        "printed": {
+            "LED3mm_bezel.stl": {
+                "count": 4,
+                "colour": "[0, 0.572549, 0]",
+                "camera": "0,0,0,70,0,315,500"
+            }
+        },
+        "routed": {}
+    },
+    {
+        "name": "ftdi_quad_lin_box_assembly",
+        "big": null,
+        "ngb": false,
+        "zoomed": 0,
+        "count": 1,
+        "assemblies": {
+            "led_activity_assembly": 4
+        },
+        "vitamins": {
+            "d_plug(DCONN9): D-type 9 way  plug": {
+                "count": 4
+            },
+            "d_pillar(): D-type connector pillar": {
+                "count": 8
+            },
+            "nut(M2_nut): Nut M2 x 1.6mm ": {
+                "count": 8
+            },
+            "slide_switch(SS-12F15): SlideSwitch": {
+                "count": 4
+            }
+        },
+        "printed": {
+            "ftdi_quad_lin_box.stl": {
+                "count": 1,
+                "colour": "[0, 0.572549, 0]",
+                "camera": "0,0,0,70,0,315,500"
+            },
+            "LED3mm_bezel_retainer.stl": {
+                "count": 4,
+                "colour": "[0.862745, 0.0784314, 0.235294]",
+                "camera": "0,0,0,70,0,315,500"
+            }
+        },
+        "routed": {}
+    },
+    {
+        "name": "main_assembly",
+        "big": null,
+        "ngb": false,
+        "zoomed": 0,
+        "count": 1,
+        "assemblies": {
+            "ftdi_quad_lin_box_assembly": 1,
+            "ftdi_quad_lin_box_base_assembly": 1
+        },
+        "vitamins": {
+            "insert(CNCKM3): Heatfit insert M3 x 3mm": {
+                "count": 4
+            },
+            "washer(M3_washer): Washer  M3 x 7mm x 0.5mm": {
+                "count": 4
+            },
+            "screw(M3_pan_screw, 6): Screw M3 pan x  6mm": {
+                "count": 4
+            }
+        },
+        "printed": {},
+        "routed": {}
+    }
+]

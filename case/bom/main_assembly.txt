@@ -1,0 +1,9 @@
+main_assembly:
+Vitamins:
+  4 Heatfit insert M3 x 3mm
+  4 Screw M3 pan x  6mm
+  4 Washer  M3 x 7mm x 0.5mm
+
+Assemblies:
+  1 ftdi_quad_lin_box_assembly
+  1 ftdi_quad_lin_box_base_assembly
