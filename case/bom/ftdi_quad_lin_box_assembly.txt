@@ -1,0 +1,11 @@
+ftdi_quad_lin_box_assembly:
+Vitamins:
+  4 D-type 9 way  plug
+  4 SlideSwitch
+
+Printed:
+  4 LED3mm_bezel_retainer.stl
+  1 ftdi_quad_lin_box.stl
+
+Assemblies:
+  4 led_activity_assemblies

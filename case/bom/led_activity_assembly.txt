@@ -1,0 +1,6 @@
+led_activity_assemblies:
+Vitamins:
+  4 LED 3 mm red
+
+Printed:
+  4 LED3mm_bezel.stl

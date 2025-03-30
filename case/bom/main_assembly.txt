@@ -1,0 +1,5 @@
+main_assembly:
+
+Assemblies:
+  1 ftdi_quad_lin_box_assembly
+  1 ftdi_quad_lin_box_base_assembly

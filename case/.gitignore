@@ -1,0 +1,9 @@
+*.deps
+*.log
+*.html
+bounds.json
+options.json
+times.txt
+*_diff.png
+*.echo
+cmd_times.txt
