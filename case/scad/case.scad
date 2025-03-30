@@ -70,7 +70,7 @@ ftdi_quad_lin_pcb = ["ftdi_quad_lin_pcb", "ftdi quad lin",
     [
         [ 3.7,   12.49, 180, "usb_C"],
         [  6,       66, 180, "barrel_jack"],
-        [  22.11,  3.5,   0, "2p54socket", 11, 1, 1],
+        [  22.11,  7.5/*3.5*/,   0, "2p54socket", 11, 1, 1],
         
         [   15.9, 76.3,   0, "jst_xh", 5],
         [   51.2, 12.9,  90, "jst_xh", 3],
@@ -212,6 +212,31 @@ assembly("ftdi_quad_lin_box_base") {
     }
 }
 
+module slide_switch() {
+    vitamin("slide_switch(SS-12F15): SlideSwitch");
+    lever_h = 5;
+    body_h = 5;
+    body_w1 = 2/3*lever_w1;
+    color("gray")
+        translate([lever_hole_w1/2 - lever_btn_w1/2, 0, -lever_h/2])
+            cube([lever_btn_w1, lever_hole_w2, lever_h], center=true);
+        
+        translate([0, 0, lever_thickness])
+            color("silver")
+            cube([lever_w1, lever_w2, lever_thickness], center=true);
+        
+        translate([0, 0, lever_thickness+body_h/2])
+        color("yellow")
+            cube([body_w1, 2/3*lever_w2, body_h], center=true);
+    
+        for(i = [-1, 0, 1]) {
+            translate([i * body_w1/3, 0, lever_thickness+body_h])
+            color("silver")
+                cube([1, 1, 3]);
+        }
+        
+}
+
 //! 1. Insert 4x LED with bezel into hole and screw with retainer
 //! 2. Insert 4x slide switches and glue them inside
 //! 3. insert 4x DCONN9 connectors and glue them inside
@@ -236,18 +261,22 @@ module ftdi_quad_lin_box_assembly() assembly("ftdi_quad_lin_box") {
     }
 
 
-    lin_positions() {
-        color("gray")
-            translate([lever_hole_w1/2 - lever_btn_w1/2, 0, 0])
-                cube([lever_btn_w1, lever_hole_w2, 10], center=true);
-    }
+    explode(55)
+        lin_positions()
+            slide_switch();
 }
 
 
-//! 1. Connect LEDs
-//! 2. Connect slide switches
-//! 3. Connect DCONN9 connectors
-//! 4. Screw base into the box with 4x M3
+//! 1. Connect LEDs wire into J7
+//! 1. Connect LIN 0 power switch to JP5
+//! 1. Connect LIN 1 power switch to JP6 
+//! 1. Connect LIN 2 power switch to JP7 
+//! 1. Connect LIN 3 power switch to JP8 
+//! 1. Connect LIN 1 CONN9 to J2
+//! 1. Connect LIN 2 CONN9 to J3
+//! 1. Connect LIN 3 CONN9 to J4
+//! 1. Connect LIN 4 CONN9 to J5
+//! 1. Screw base into the box with 4x M3 screws
 module main_assembly()
 pose([ 246.80, 0.00, 316.40 ], [ 0.52, -11.90, 43.01 ])
 assembly("main") {
