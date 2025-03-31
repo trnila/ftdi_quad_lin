@@ -37,7 +37,7 @@ led_top_spacing = 5;
 
 pcb_thickness = 1.6;
 pcb_spacing = 0.4;
-pcb_tol = 0.08;
+pcb_tol = 0.03;
 pcb_screw_offset = 3.45;
 
 led_activity_bezel = led_bezel(LED3mm, height=5);
