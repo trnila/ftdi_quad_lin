@@ -1,7 +1,5 @@
 include <NopSCADlib/lib.scad> 
 include <NopSCADlib/core.scad>
-include <NopSCADlib/vitamins/inserts.scad>
-include <NopSCADlib/vitamins/insert.scad>
 include <NopSCADlib/vitamins/d_connectors.scad>
 include <NopSCADlib/vitamins/d_connector.scad>
 include <NopSCADlib/vitamins/pcb.scad>
@@ -14,8 +12,6 @@ use <NopSCADlib/vitamins/pcb.scad>
 use <NopSCADlib/printed/foot.scad>
 
 $explode = 0;
-
-// PR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 w1 = 55;
 w2 = 80;
@@ -36,8 +32,8 @@ led_dsub_spacing = 5;
 led_top_spacing = 5;
 
 pcb_thickness = 1.6;
-pcb_spacing = 0.4;
-pcb_tol = 0.03;
+pcb_spacing = 0.6;
+pcb_tol = 0.04;
 pcb_screw_offset = 3.45;
 
 led_activity_bezel = led_bezel(LED3mm, height=5);
@@ -55,6 +51,75 @@ ftdi_quad_lin_box = pbox(
     foot = foot,
     short_insert = true
 );
+
+module barrel_jack(cutout = false) { //! Draw barrel power jack
+    l = 13.2;
+    w = 8.89;
+    h = 9;
+    bore_d = 6.3;
+    bore_h = 5;
+    bore_l = 11.8;
+    pin_d = 2;
+    front = 3.3;
+    r = 0.5;
+    contact_d = 2;
+    contact_w = 4;
+    inset = 1;
+    if(cutout) {
+        rotate([0, 90, 0])
+            translate([-bore_h, 0])
+                cylinder(d = bore_d + panel_clearance, h = 100);
+    } else {
+        color(grey(20)) rotate([0, 90, 0]) {
+            linear_extrude(l, center = true) {
+                difference() {
+                    translate([-h / 2, 0])
+                        rounded_square([h, w], r);
+
+                    translate([-bore_h, 0])
+                        circle(d = bore_d);
+
+                    translate([-h / 2 - bore_h, 0])
+                        square([h, w], center = true);
+
+                }
+            }
+            translate_z(l / 2 - front)
+                linear_extrude(front) {
+                    difference() {
+                        translate([-h / 2, 0])
+                            rounded_square([h, w], r);
+
+                        translate([-bore_h, 0])
+                            circle(d = bore_d);
+                    }
+                }
+
+            translate([-bore_h, 0])
+                tube(or = w / 2 - 0.5, ir = bore_d / 2, h = l);
+
+            translate([-bore_h, 0, -l / 2])
+                cylinder(d = w -1, h = l - bore_l);
+        }
+        color("silver") {
+            translate([l / 2 - inset - pin_d / 2, 0, bore_h])
+                hull() {
+                    sphere(pin_d / 2);
+
+                    rotate([0, -90, 0])
+                        cylinder(d = pin_d, h = bore_l - inset);
+                }
+            hull() {
+                translate([l / 2 - inset - contact_d / 2, 0, bore_h - bore_d / 2])
+                    rotate([90, 0, 0])
+                        cylinder(d = contact_d, h = contact_w, center = true);
+
+                translate([l / 2 - bore_l, 0,  bore_h - bore_d / 2 + contact_d / 4])
+                    cube([eps, contact_w, eps], center = true);
+            }
+        }
+    }
+}
 
 
 ftdi_quad_lin_pcb = ["ftdi_quad_lin_pcb", "ftdi quad lin",
