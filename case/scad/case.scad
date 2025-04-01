@@ -270,11 +270,11 @@ module led_activity_assembly() assembly("led_activity") {
 
 //! Place FTDI Quad LIN PCB into base part.
 module ftdi_quad_lin_box_base_assembly()
-pose([ 241.20, 0.00, 294.50 ], [ 0.52, -11.90, 43.01 ])
+pose([ 45.70, 0.00, 280.00 ], [ 0.52, -11.90, 43.01 ])
 assembly("ftdi_quad_lin_box_base") {
     ftdi_quad_lin_box_base_stl();
    
-    explode(-20) {
+    explode(20) {
         translate([0, 0, pcb_thickness])
         pcb(ftdi_quad_lin_pcb);
     }
