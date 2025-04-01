@@ -23,14 +23,17 @@
 |  |  |  |  | | **Vitamins** |
 | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp;.&nbsp; |  &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp; D-type 9 way  plug |
 | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;8&nbsp; | &nbsp;&nbsp;.&nbsp; |  &nbsp;&nbsp;8&nbsp; | &nbsp;&nbsp; D-type connector pillar |
+| &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;4&nbsp; |  &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp; Heatfit insert M3 x 3mm |
 | &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; |  &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp; JST XH connector 3 way |
 | &nbsp;&nbsp;1&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; |  &nbsp;&nbsp;1&nbsp; | &nbsp;&nbsp; JST XH connector 5 way |
 | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; |  &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp; LED 3 mm red |
 | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;8&nbsp; | &nbsp;&nbsp;.&nbsp; |  &nbsp;&nbsp;8&nbsp; | &nbsp;&nbsp; Nut M2 x 1.6mm  |
 | &nbsp;&nbsp;1&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; |  &nbsp;&nbsp;1&nbsp; | &nbsp;&nbsp; Pin socket 11 x 1 right_angle |
+| &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;4&nbsp; |  &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp; Screw M3 pan x  6mm |
 | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp;.&nbsp; |  &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp; SlideSwitch |
+| &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;4&nbsp; |  &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp; Washer  M3 x 7mm x 0.5mm |
 | &nbsp;&nbsp;1&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; |  &nbsp;&nbsp;1&nbsp; | &nbsp;&nbsp; ftdi quad lin |
-| &nbsp;&nbsp;7&nbsp; | &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp;24&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;35&nbsp; | &nbsp;&nbsp;Total vitamins count |
+| &nbsp;&nbsp;7&nbsp; | &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp;24&nbsp; | &nbsp;&nbsp;12&nbsp; | &nbsp;&nbsp;47&nbsp; | &nbsp;&nbsp;Total vitamins count |
 |  |  |  |  | | **3D printed parts** |
 | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; |  &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp;LED3mm_bezel.stl |
 | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;.&nbsp; | &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp;.&nbsp; |  &nbsp;&nbsp;4&nbsp; | &nbsp;&nbsp;LED3mm_bezel_retainer.stl |
@@ -137,7 +140,7 @@ Place FTDI Quad LIN PCB into base part.
 
 1. Insert 4x LED with bezel into hole and screw with retainer
 2. Insert 4x slide switches and glue them inside
-3. insert 4x DCONN9 connectors and glue them inside
+3. insert 4x DCONN9 connectors and secure them with pillar and nuts
 
 ![ftdi_quad_lin_box_assembled](assemblies/ftdi_quad_lin_box_assembled.png)
 
@@ -147,6 +150,14 @@ Place FTDI Quad LIN PCB into base part.
 ---
 <a name="main_assembly"></a>
 ## Main Assembly
+### Vitamins
+|Qty|Description|
+|---:|:----------|
+|4| Heatfit insert M3 x 3mm|
+|4| Screw M3 pan x  6mm|
+|4| Washer  M3 x 7mm x 0.5mm|
+
+
 ### Sub-assemblies
 
 | 1 x ftdi_quad_lin_box_assembly | 1 x ftdi_quad_lin_box_base_assembly |
@@ -158,6 +169,7 @@ Place FTDI Quad LIN PCB into base part.
 ### Assembly instructions
 ![main_assembly](assemblies/main_assembly.png)
 
+1. Place 4x heated inserts
 1. Connect LEDs wire into J7
 1. Connect LIN 0 power switch to JP5
 1. Connect LIN 1 power switch to JP6 
@@ -168,6 +180,7 @@ Place FTDI Quad LIN PCB into base part.
 1. Connect LIN 3 CONN9 to J4
 1. Connect LIN 4 CONN9 to J5
 1. Screw base into the box with 4x M3 screws
+1. Screw the base into the box
 
 ![main_assembled](assemblies/main_assembled.png)
 

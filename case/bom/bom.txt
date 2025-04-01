@@ -23,13 +23,16 @@ Vitamins:
  x  e  y  n
  8|  |  |  |  8 D-type connector pillar
  4|  |  |  |  4 D-type 9 way  plug
+  |  |  | 4|  4 Heatfit insert M3 x 3mm
   | 4|  |  |  4 JST XH connector 3 way
   | 1|  |  |  1 JST XH connector 5 way
   |  | 4|  |  4 LED 3 mm red
  8|  |  |  |  8 Nut M2 x 1.6mm 
   | 1|  |  |  1 ftdi quad lin
   | 1|  |  |  1 Pin socket 11 x 1 right_angle
+  |  |  | 4|  4 Screw M3 pan x  6mm
  4|  |  |  |  4 SlideSwitch
+  |  |  | 4|  4 Washer  M3 x 7mm x 0.5mm
 
 Printed:
   |  | 4|  |  4 LED3mm_bezel.stl

@@ -93,7 +93,17 @@
             "ftdi_quad_lin_box_assembly": 1,
             "ftdi_quad_lin_box_base_assembly": 1
         },
-        "vitamins": {},
+        "vitamins": {
+            "insert(CNCKM3): Heatfit insert M3 x 3mm": {
+                "count": 4
+            },
+            "washer(M3_washer): Washer  M3 x 7mm x 0.5mm": {
+                "count": 4
+            },
+            "screw(M3_pan_screw, 6): Screw M3 pan x  6mm": {
+                "count": 4
+            }
+        },
         "printed": {},
         "routed": {}
     }

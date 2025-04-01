@@ -52,7 +52,7 @@ ftdi_quad_lin_box = pbox(
     base_t = box_base_thickness,
     radius = 0,
     size = [w1, w2, h],
-    foot = foot,
+    screw = M3_pan_screw,
     short_insert = true
 );
 
@@ -345,6 +345,7 @@ module ftdi_quad_lin_box_assembly() assembly("ftdi_quad_lin_box") {
 }
 
 
+//! 1. Place 4x heated inserts
 //! 1. Connect LEDs wire into J7
 //! 1. Connect LIN 0 power switch to JP5
 //! 1. Connect LIN 1 power switch to JP6 
@@ -355,6 +356,7 @@ module ftdi_quad_lin_box_assembly() assembly("ftdi_quad_lin_box") {
 //! 1. Connect LIN 3 CONN9 to J4
 //! 1. Connect LIN 4 CONN9 to J5
 //! 1. Screw base into the box with 4x M3 screws
+//! 1. Screw the base into the box
 module main_assembly()
 pose([ 246.80, 0.00, 316.40 ], [ 0.52, -11.90, 43.01 ])
 assembly("main") {
@@ -364,6 +366,12 @@ assembly("main") {
          translate_z(base_pos_z) vflip()
             ftdi_quad_lin_box_base_assembly();
     }
+    
+    explode(20)
+        pbox_inserts(ftdi_quad_lin_box);
+    
+    explode(60)
+    pbox_base_screws(ftdi_quad_lin_box);
 }
 
 if($preview) {
