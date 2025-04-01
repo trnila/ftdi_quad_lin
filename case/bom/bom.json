@@ -61,6 +61,12 @@
             "d_plug(DCONN9): D-type 9 way  plug": {
                 "count": 4
             },
+            "d_pillar(): D-type connector pillar": {
+                "count": 8
+            },
+            "nut(M2_nut): Nut M2 x 1.6mm ": {
+                "count": 8
+            },
             "slide_switch(SS-12F15): SlideSwitch": {
                 "count": 4
             }

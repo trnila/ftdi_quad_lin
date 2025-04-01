@@ -6,6 +6,7 @@ include <NopSCADlib/vitamins/pcb.scad>
 include <NopSCADlib/printed/printed_box.scad>
 include <NopSCADlib/vitamins/d_connectors.scad>
 include <NopSCADlib/vitamins/leds.scad>
+include <NopSCADlib/vitamins/screws.scad>
 include <NopSCADlib/printed/led_bezel.scad>
 
 use <NopSCADlib/vitamins/pcb.scad>
@@ -307,7 +308,7 @@ module slide_switch() {
 
 //! 1. Insert 4x LED with bezel into hole and screw with retainer
 //! 2. Insert 4x slide switches and glue them inside
-//! 3. insert 4x DCONN9 connectors and glue them inside
+//! 3. insert 4x DCONN9 connectors and secure them with pillar and nuts
 module ftdi_quad_lin_box_assembly() assembly("ftdi_quad_lin_box") {
     ftdi_quad_lin_box_stl();
     
@@ -315,6 +316,16 @@ module ftdi_quad_lin_box_assembly() assembly("ftdi_quad_lin_box") {
         explode(-15) {
             d_plug(DCONN9);
         }
+        
+        translate([0, 0, wall])
+        d_connector_holes(DCONN9) {
+            explode(10)
+                d_pillar();
+            explode(-20) 
+                translate([0, 0, -2*wall])
+                nut(M2_nut);
+        }
+        
         dsub_led_activity() {
             explode(10)
             translate([0, 0, 2])
