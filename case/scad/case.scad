@@ -40,12 +40,15 @@ led_activity_bezel = led_bezel(LED3mm, height=5);
 
 
 foot = Foot(d = 7, h = 5, t = 2, r = 1, screw = M3_pan_screw);
+box_top_thickness = wall;
+box_base_thickness = wall + pcb_thickness;
+base_pos_z = h + box_top_thickness + box_base_thickness + 2 * eps;
 module foot_stl() foot(foot);
 ftdi_quad_lin_box = pbox(
     name = "ftdi_quad_lin_box",
     wall = wall,
-    top_t = wall,
-    base_t = 2 + pcb_thickness,
+    top_t = box_top_thickness,
+    base_t = box_base_thickness,
     radius = 0,
     size = [w1, w2, h],
     foot = foot,
@@ -191,8 +194,9 @@ module ftdi_quad_lin_box_base_stl() stl("ftdi_quad_lin_box_base") {
             pbox_base(ftdi_quad_lin_box);
         }
         
-        translate([0, 0, (pcb_thickness+pcb_spacing)/2])
-        cube([w1+pcb_tol, w2+pcb_tol, (pcb_thickness+pcb_spacing)], center=true);
+        hole_h = (pcb_thickness+pcb_spacing);
+        translate([0, 0, box_base_thickness - hole_h/2])
+        cube([w1+pcb_tol, w2+pcb_tol, hole_h], center=true);
     }
     
     intersection() {
@@ -228,9 +232,9 @@ module ftdi_quad_lin_box_stl() stl("ftdi_quad_lin_box") {
             cube([lever_hole_w1, lever_hole_w2, 10], center=true);
         }
         
-        translate([0, 0, h+pcb_thickness])
-        rotate([180, 0, 0])
-        pcb_cutouts(ftdi_quad_lin_pcb);
+        translate([0, 0, h + box_top_thickness + box_base_thickness/2 + 2 * eps])
+        vflip()
+            pcb_cutouts(ftdi_quad_lin_pcb);
     }
 }
 
@@ -254,14 +258,14 @@ module led_activity_assembly() assembly("led_activity") {
     led = led_bezel_led(led_activity_bezel);
     d = led_diameter(led);
     translate_z(led_bezel_flange_t(led_activity_bezel)) {
-    vflip()
-        stl_colour(pp1_colour)
-            led_bezel(led_activity_bezel);
+        vflip()
+            stl_colour(pp1_colour)
+                led_bezel(led_activity_bezel);
 
-    translate_z(-led_height(led) + (is_num(d) ? d / 2 : 0))
-        explode(-13)
-            led(led, "red");
-}
+        translate_z(-led_height(led) + (is_num(d) ? d / 2 : 0))
+            explode(-13)
+                led(led, "red");
+    }
 }
 
 //! Place FTDI Quad LIN PCB into base part.
@@ -269,10 +273,9 @@ module ftdi_quad_lin_box_base_assembly()
 pose([ 241.20, 0.00, 294.50 ], [ 0.52, -11.90, 43.01 ])
 assembly("ftdi_quad_lin_box_base") {
     ftdi_quad_lin_box_base_stl();
-    
+   
     explode(-20) {
         translate([0, 0, pcb_thickness])
-        rotate([180, 0, 0])
         pcb(ftdi_quad_lin_pcb);
     }
 }
@@ -325,7 +328,6 @@ module ftdi_quad_lin_box_assembly() assembly("ftdi_quad_lin_box") {
         }
     }
 
-
     explode(55)
         lin_positions()
             slide_switch();
@@ -347,10 +349,9 @@ pose([ 246.80, 0.00, 316.40 ], [ 0.52, -11.90, 43.01 ])
 assembly("main") {
     ftdi_quad_lin_box_assembly();
     
-    translate([0, 0, h]) {
-        explode(40) {
+    explode(40) {
+         translate_z(base_pos_z) vflip()
             ftdi_quad_lin_box_base_assembly();
-        }
     }
 }
 
