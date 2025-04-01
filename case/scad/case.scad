@@ -16,7 +16,7 @@ $explode = 0;
 
 w1 = 55;
 w2 = 80;
-h = 42;
+h = 47;
 wall = 2;
 
 lever_w1 = 23.25;
@@ -276,7 +276,7 @@ assembly("ftdi_quad_lin_box_base") {
     ftdi_quad_lin_box_base_stl();
    
     explode(20) {
-        translate([0, 0, pcb_thickness])
+        translate([0, 0, pcb_thickness+pcb_spacing/2])
         pcb(ftdi_quad_lin_pcb);
     }
 }
