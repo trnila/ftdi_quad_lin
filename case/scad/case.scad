@@ -16,7 +16,7 @@ $explode = 0;
 
 w1 = 55;
 w2 = 80;
-h = 47;
+h = 50;
 wall = 2;
 
 lever_w1 = 23.45;
@@ -30,14 +30,14 @@ insert_type = CNCKM3;
 insert_w = insert_outer_d(insert_type);
 
 led_dsub_spacing = 5;
-led_top_spacing = 5;
+led_top_spacing = 8;
 
 pcb_thickness = 1.6;
 pcb_spacing = 0.8;
 pcb_tol = 0.06;
 pcb_screw_offset = 3.45;
 
-led_activity_bezel = led_bezel(LED3mm, height=5);
+led_activity_bezel = led_bezel(LED3mm, height=7);
 
 
 foot = Foot(d = 7, h = 5, t = 2, r = 1, screw = M3_pan_screw);
