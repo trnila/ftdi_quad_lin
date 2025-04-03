@@ -19,10 +19,10 @@ w2 = 80;
 h = 47;
 wall = 2;
 
-lever_w1 = 23.25;
+lever_w1 = 23.45;
 lever_w2 = 7.3;
-lever_hole_w1 = 9;
-lever_hole_w2 = 3.8;
+lever_hole_w1 = 9.15;
+lever_hole_w2 = 3.95;
 lever_btn_w1 = 5.40;
 lever_thickness = 0.6;
 
