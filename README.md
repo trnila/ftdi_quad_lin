@@ -8,3 +8,9 @@ FTDI Quad-LIN is an FTDI-based board that enables communication with up to 4 LIN
 - power jack to power selected transceiver and its network
 
 <img src="ftdi-quad-lin.webp">
+
+## Getting started
+Install dkms driver for sllin module:
+```
+$ ./install_driver.sh
+```
