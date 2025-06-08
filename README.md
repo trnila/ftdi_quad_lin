@@ -24,3 +24,11 @@ Then run following commands to:
 $ sudo apt install ftdi-eeprom
 $ ./setup.sh some_serial_number
 ```
+
+## Tests
+
+Connect all channels to PCAN-USB Pro, then run:
+```
+$ uv run pytest
+```
+This tests all channels as masters by sending frames to the connected PCAN-USB device.
