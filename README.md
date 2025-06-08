@@ -24,3 +24,19 @@ Then run following commands to:
 $ sudo apt install ftdi-eeprom
 $ ./setup.sh some_serial_number
 ```
+
+## Tests
+
+Connect all channels to 2x PCAN-USB Pro, then install peak driver:
+```sh
+$ wget https://www.peak-system.com/quick/PLIN-Linux-Driver -O plin_linux_driver.tar.gz
+$ tar -xf plin_linux_driver.tar.gz
+$ cd peak-lin-driver-1.4.0
+$ make
+$ sudo make install
+```
+
+Then test all channels as masters by sending frames to the connected PCAN-USB device:
+```
+$ uv run pytest
+```
