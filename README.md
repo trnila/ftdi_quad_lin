@@ -14,3 +14,13 @@ Install dkms driver for sllin module:
 ```
 $ ./install_driver.sh
 ```
+
+Then run following commands to:
+- write given serial number into the device
+- install a udev rule to start `ldattach@.service` on USB plug-in
+- copy `sllin.network` file to automatically bringup `slcan` interface up
+
+```
+$ sudo apt install ftdi-eeprom
+$ ./setup.sh some_serial_number
+```
