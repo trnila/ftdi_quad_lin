@@ -7,6 +7,7 @@ FTDI Quad-LIN is an FTDI-based board that enables communication with up to 4 LIN
 - channel LED indication of power presence and communication activity
 - power jack to power selected transceiver and its network
 
+<img src="ftdi-quad-lin-case.webp">
 <img src="ftdi-quad-lin.webp">
 
 ## Getting started
