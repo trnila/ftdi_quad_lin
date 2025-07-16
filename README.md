@@ -28,6 +28,15 @@ $ ./setup.sh some_serial_number
 ## Tests
 
 Connect all channels to PCAN-USB Pro, then run:
+
+```
+$ wget https://www.peak-system.com/quick/PLIN-Linux-Driver -O plin_linux_driver.tar.gz
+$ tar -xf plin_linux_driver.tar.gz
+$ cd peak-lin-driver-1.4.0
+$ make
+$ sudo make install
+```
+
 ```
 $ uv run pytest
 ```
